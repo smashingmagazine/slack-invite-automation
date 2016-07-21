@@ -5,16 +5,16 @@
   "keywords": ["node", "slack", "invite"],
   "env": {
     "COMMUNITY_NAME": {
-      "description": "Your team name",
-      "value": "YOUR TEAM NAME"
+      "description": "Smashing Conference",
+      "value": "SmashingConf"
     },
     "SLACK_URL": {
-      "description": "Your slack url(ex: socketio.slack.com)",
-      "value": "YOUR-TEAM.slack.com"
+      "description": "Smashing Conference Slack Channel",
+      "value": "https://smashingconf.slack.com/"
     },
     "SLACK_TOKEN": {
-      "description": "access token of slack, You can generate it in https://api.slack.com/web#auth",
-      "value": ""
+      "description": "access token of slack",
+      "value": "xoxp-26435813668-26395272147-26450292641-3ca3806359"
     },
     "INVITE_TOKEN": {
       "description": "Shared invite token used to get access. Leave blank if you don't want users to have to provide a token.",

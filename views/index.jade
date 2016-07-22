@@ -17,7 +17,7 @@ html
         .content
           .information
             form(method="POST", action="/invite")#join-form.form
-              input(type="email", name="email", placeholder="your@email.com")#slack-email.field
+              input(type="email", name="email", pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,4}$" autofocus="true", placeholder="your@email.com", required="required")#slack-email.field
               if tokenRequired
                 input(type="text", name="token", placeholder="#{__('ENTER_TOKEN')}")#slack-token.field
               input(type="submit", value="Join the channel!").submit
